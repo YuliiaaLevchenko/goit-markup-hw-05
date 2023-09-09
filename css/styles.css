@@ -480,6 +480,7 @@ margin-right: 80px;}
 }
 .footer-form-list {
   display: flex;
+  gap: 24px; 
 }
 .footer-form-label {
   gap: 24px;
@@ -549,7 +550,6 @@ margin-right: 80px;}
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
   padding: 72 24 24 24;
@@ -557,12 +557,15 @@ margin-right: 80px;}
 background: var(--DAIRY, #FCFCFC);
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+transform: translate(-50%, -50%) scale(1);
 }
 .button-close {
   position: absolute;
   top: 24px;
   right: 24px;
   line-height: 0;
+  width: 24px;
+  height: 24px;
   background-color: transparent;
   border: none;
   padding: 0;
@@ -579,6 +582,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .button-close:focus,
 .button-close:hover {
   background-color: #404bbf;
+  border: none;
 }
 .modal {
   padding-top: 72px;
@@ -597,11 +601,12 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-
+margin-bottom: 16px;
 }
 .review-form-field-wrapper {
   gap: 26px;
-  margin-bottom: 8px; 
+  
+  margin-bottom: 16px
 }
 .review-form-field-label {
 display: block;
@@ -636,10 +641,12 @@ color: var(--LIGHT-SLATE, #8E8F99);
   left: 16px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #4D5AE5;
 }
 .review-form-input-wrapper {
   position: relative;
   margin-bottom: 16px;
+  
 }
 .review-form-input:focus + .review-form-field-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -677,6 +684,13 @@ stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
 width: 16px;
 height: 16px;
 cursor: pointer;
+border: 1px solid rgba(46, 47, 66, 0.4);
+ border-radius: 2px;
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ display: inline-flex; 
+ align-items: center;
+ justify-content: center;
+ fill: transparent;
 
 }
 .review-form-checkbox-label {
@@ -698,15 +712,17 @@ cursor: pointer;
   border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-display: inline-flex;
+display: block;
 padding: 16px 32px;
 align-items: flex-start;
 gap: 10px;
 margin-left: auto;
 margin-right: auto;
-width: 169px;
 height: 56px;
-text-align: center;
+min-width: 169px;
+cursor: pointer;
+border: none; 
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 .review-form-button {
   color: var(--WHITE, #FFF);
