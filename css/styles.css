@@ -607,7 +607,7 @@ margin-bottom: 16px;
 }
 .review-form-field-wrapper {
   gap: 26px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   
 }
 .review-form-field-label {
@@ -693,7 +693,12 @@ border: 1px solid rgba(46, 47, 66, 0.4);
  align-items: center;
  justify-content: center;
  fill: transparent;
-
+ 
+}
+.review-form-checkbox:checked {
+  background-color: #404bbf; 
+  border: none;
+  fill: #F4F4FD;
 }
 .review-form-checkbox-label {
   color: var(--LIGHT-SLATE, #8E8F99);
