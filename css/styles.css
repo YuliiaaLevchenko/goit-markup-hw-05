@@ -550,6 +550,7 @@ margin-right: 80px;}
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 584px;
   padding: 72px 24px 24px 24px; 
@@ -557,7 +558,7 @@ margin-right: 80px;}
 background: var(--DAIRY, #FCFCFC);
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-transform: translate(-50%, -50%) scale(1);
+
 
 }
 .button-close {
@@ -607,8 +608,8 @@ margin-bottom: 16px;
 }
 .review-form-field-wrapper {
   gap: 26px;
-  margin-bottom: 8px;
   
+  margin-bottom: 16px;
 }
 .review-form-field-label {
 display: block;
