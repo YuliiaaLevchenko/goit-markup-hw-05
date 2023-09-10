@@ -601,7 +601,7 @@ margin-bottom: 16px;
 }
 .review-form-field-wrapper {
   gap: 26px;
-  
+  margin-bottom: 16px;
   margin-bottom: 8px;
 }
 .review-form-field-label {
@@ -708,7 +708,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .review-form-checkbox-wrapper {
   padding-bottom: 24px;
-  
+  margin-bottom: 24px;
 }
 .review-form-submit {
   border-radius: 4px;
