@@ -632,8 +632,10 @@ color: var(--LIGHT-SLATE, #8E8F99);
 .review-form-field-label:focus {
   stroke: #4D5AE5; 
 }
-.review-form-input:focus {
-  fill: #4D5AE5;  
+.review-form-input:focus + .review-form-field-icon {
+ 
+  fill: #4D5AE5; } 
+  .review-form-input:focus {
   outline: transparent;
   border-color: #4D5AE5;
 }
