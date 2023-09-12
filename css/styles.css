@@ -285,6 +285,9 @@ a {
 .team-profession {
   text-align: center;
 }
+.social-list {
+  margin-right: 80px;
+}
 .social-list-icon {
   display: flex;
   justify-content: center;
@@ -429,9 +432,7 @@ margin-top: 18px;
 }
 .footer-logo {
   color: #4d5ae5;
-
 }
-
 .social-text {
   color: #fff;
   font-weight: 500;
@@ -443,7 +444,7 @@ margin-top: 18px;
 .socialicon {
   display: flex;
   gap: 16px;
-margin-right: 80px;}
+}
 .socialitem {
   width: 40px;
   height: 40px;
@@ -608,7 +609,7 @@ margin-bottom: 16px;
   margin-bottom: 8px;
 }
 .review-form-field-list {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-field-label {
 display: block;
@@ -679,13 +680,16 @@ color: var(--LIGHT-SLATE, #8E8F99);
 .review-form-comment:focus {
   border-color:  #4D5AE5;
   outline: transparent;
- 
-}
+ }
 .review-form-comment::placeholder {
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40)); 
 } 
 .review-form-checkbox {
   
+}
+.review-form-own-checkbox-span {
+  width: 16px;
+  height: 16px;
 }
 .review-form-own-checkbox {
   stroke-width: 1px;
