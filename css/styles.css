@@ -651,7 +651,7 @@ color: var(--LIGHT-SLATE, #8E8F99);
 
 .review-form-input-wrapper {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   
 }
 .review-form-input:focus + .review-form-field-icon {
