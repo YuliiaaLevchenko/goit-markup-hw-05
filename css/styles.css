@@ -687,10 +687,7 @@ color: var(--LIGHT-SLATE, #8E8F99);
 .review-form-checkbox {
   
 }
-.review-form-own-checkbox-span {
-  width: 16px;
-  height: 16px;
-}
+
 .review-form-own-checkbox {
   stroke-width: 1px;
 stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
